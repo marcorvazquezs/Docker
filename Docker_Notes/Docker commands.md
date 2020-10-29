@@ -2,6 +2,8 @@
 
 ## Commands to start, list, remove containers
 
+*docker pull* - pull images down from dockerhub
+
 *docker container ls* = lists running containers 
 
 *docker container run --publish 80:80* = publishes local host's port 80 to port 80 of container 
