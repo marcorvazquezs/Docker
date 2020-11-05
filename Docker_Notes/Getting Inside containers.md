@@ -10,3 +10,6 @@ Examples:
 
  * *docker container exec -it mysql bash* - gets you a shell inside a running container 
 
+
+
+
