@@ -2,23 +2,34 @@
 
 ## Commands to start, list, remove containers
 
-*docker pull* - pull images down from dockerhub
+```bash
+# pull images down from dockerhub
+docker pull
 
-*docker container ls* = lists running containers 
+# lists running containers 
+docker container ls
 
-*docker container run --publish 80:80* = publishes local host's port 80 to port 80 of container 
+# publishes local host's port 80 to port 80 of container
+docker container run --publish 80:80
 
-*docker container run --d* = -d runs container in "detached" mode so it runs in background. 
+# -d runs container in "detached" mode so it runs in background.
+docker container run --d 
 
-*docker container run --name* = assigns a name to container instead of the randomly created name 
+#  assigns a name to container instead of the randomly created name 
+docker container run --name
 
-*docker container rm -f* = forces removal of running container 
-
+# -f forces removal of running container
+docker container rm -f  
+```
 
 ## Commands to inspect containers 
+```bash
+# process list in one container
+docker container top 
 
-*docker container top* - process list in one container
+# details of one container config 
+docker container inspect 
 
-*docker container inspect* - details of one container config 
-
-*docker container stats* - performance stats for all containers
+# performance stats for all containers
+docker container stats 
+```
